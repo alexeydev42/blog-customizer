@@ -1,14 +1,14 @@
 # Blog Customizer
 
-Blog Customizer is a React application with a settings panel that allows the user to change the appearance of an article.
+Blog Customizer is a React and TypeScript application with a settings panel for changing the appearance of an article.
 
-The main task in the project was to keep the form state separate from the settings currently applied to the page. Changes are previewed in the form and applied only after the user confirms them.
+The project focuses on form state, applied settings and interaction between UI controls and CSS variables.
 
 ## Features
 
 - collapsible settings panel;
 - article style customization;
-- separate form and applied state;
+- separate form state and applied state;
 - reset to initial settings;
 - CSS-variable-based styling;
 - click-outside behavior for closing the panel.
@@ -26,10 +26,17 @@ The main task in the project was to keep the form state separate from the settin
 
 ## Getting started
 
+Clone the repository and install dependencies:
+
 ```bash
-git clone https://github.com/person5494/blog-customizer.git
+git clone https://github.com/alexeydev42/blog-customizer.git
 cd blog-customizer
 npm install
+```
+
+Start the development server:
+
+```bash
 npm start
 ```
 
@@ -51,4 +58,6 @@ npm run storybook
 
 ## About the project
 
-This project was completed as part of the Yandex Practicum Frontend Developer course. The initial project contained the basic components and styling setup; my work focused on implementing the settings form behavior and connecting it to the article appearance.
+This project was completed as part of the Yandex Practicum Frontend Developer program.
+
+The starter project already contained the base UI components and styling setup. My work focused on implementing the settings form behavior, managing form and applied state separately, and connecting user-selected options to the article appearance.
